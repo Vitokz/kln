@@ -50,6 +50,16 @@
             "sequence": "0"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "ethm1wzac8anlhf7vuqvh5fld7k2vvf7qvk8r92e9pe",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         }
       ]
     },
@@ -62,6 +72,15 @@
         "default_send_enabled": true
       },
       "balances": [
+        {
+          "address": "ethm1wzac8anlhf7vuqvh5fld7k2vvf7qvk8r92e9pe",
+          "coins": [
+            {
+              "denom": "wusd",
+              "amount": "100000000000000000000000000"
+            }
+          ]
+        },
         {
           "address": "ethm16lvr7t8fmst4psf0kfs94gl7glwl4apj7vs6f8",
           "coins": [
@@ -84,7 +103,7 @@
       "supply": [
         {
           "denom": "wusd",
-          "amount": "200000000000000000000000000"
+          "amount": "300000000000000000000000000"
         }
       ],
       "denom_metadata": []
