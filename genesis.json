@@ -181,7 +181,130 @@
       "block_gas": "0"
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "val2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "wq14qfnq2c7zcmju40y0uh353gzu9gptlzhen97tc",
+                "validator_address": "wqvaloper14qfnq2c7zcmju40y0uh353gzu9gptlzhrru90n",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KTgs4R4VkCR7iTCiS7YZVJ1Qv8J0DYeivlZBGoMju8A="
+                },
+                "value": {
+                  "denom": "wusd",
+                  "amount": "10000000"
+                }
+              }
+            ],
+            "memo": "547f3cceac2311be60734dec03db6cdb48077d0b@188.166.106.37:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AgsQ3WLlRDmYpJ64G0uImoe4/EpkAVz/kNe7NPKJNxX3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "1rMrUWUPlXWar2a2cEnRgXlb/JNWwKEXBr0lk7at2eBl7vME4o8yr5a2nM5el0I9lgRchOOZFNpgJpZzTjqLigA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "val3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "wq1xe4wr99vqyhr0j3whefwes068r92ntagmjapf2",
+                "validator_address": "wqvaloper1xe4wr99vqyhr0j3whefwes068r92ntagpzy6dp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "p+dAwPK6949iCrMRFOfXYe2LJ20OyxTMjJOOK2Oc9nc="
+                },
+                "value": {
+                  "denom": "wusd",
+                  "amount": "10000000"
+                }
+              }
+            ],
+            "memo": "160da8d68fd9d89a41818365d95ce92b1177d045@188.166.104.50:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AyIwM0YHGAzsAXPObHBmCF8Pg9Z/Th5OpePgFZiLZgRa"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "OMAolw/QH5wQzepT1g/+fRj9mLYkGoz+ZnOUWen0N0Qx5TsB90PUjUeLJwWI4hhSN1gLOWYP69lXbO5kmtceQwA="
+          ]
+        }
+      ]
     },
     "gov": {
       "starting_proposal_id": "1",
