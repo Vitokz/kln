@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-03-21T12:32:51.426113425Z",
-  "chain_id": "soki_9000-2",
+  "genesis_time": "2022-04-27T10:06:38.847472268Z",
+  "chain_id": "worknet_20220112-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "wq1mgkht33ulm6y9yarljms52647humfhd2urzq24",
+            "address": "wq1qe04c0gza7pwrfur6m3mv7a59t4nenv03kcl2q",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -44,7 +44,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "wq15xm57umg68m20y59sps358fh9uw0z8dwfapda9",
+            "address": "wq1lgdvhx2ax7agqanhnz57ggmdeuvh2fzkzk3277",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -54,7 +54,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "wq1xdawdlsvp2m9hfhr7lh47q9x6cwvn6ufvjrf4x",
+            "address": "wq1xpndc55p4qh83w5usuepvv3nf6wxte9nucvl7c",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -73,37 +73,37 @@
       },
       "balances": [
         {
-          "address": "wq1xdawdlsvp2m9hfhr7lh47q9x6cwvn6ufvjrf4x",
+          "address": "wq1qe04c0gza7pwrfur6m3mv7a59t4nenv03kcl2q",
           "coins": [
             {
-              "denom": "wusd",
-              "amount": "100000000000000000000000000"
+              "denom": "wqt",
+              "amount": "10000000000000000000000000"
             }
           ]
         },
         {
-          "address": "wq15xm57umg68m20y59sps358fh9uw0z8dwfapda9",
+          "address": "wq1xpndc55p4qh83w5usuepvv3nf6wxte9nucvl7c",
           "coins": [
             {
-              "denom": "wusd",
-              "amount": "100000000000000000000000000"
+              "denom": "wqt",
+              "amount": "10000000000000000000000000"
             }
           ]
         },
         {
-          "address": "wq1mgkht33ulm6y9yarljms52647humfhd2urzq24",
+          "address": "wq1lgdvhx2ax7agqanhnz57ggmdeuvh2fzkzk3277",
           "coins": [
             {
-              "denom": "wusd",
-              "amount": "100000000000000000000000000"
+              "denom": "wqt",
+              "amount": "10000000000000000000000000"
             }
           ]
         }
       ],
       "supply": [
         {
-          "denom": "wusd",
-          "amount": "300000000000000000000000000"
+          "denom": "wqt",
+          "amount": "30000000000000000000000000"
         }
       ],
       "denom_metadata": []
@@ -114,7 +114,7 @@
     },
     "crisis": {
       "constant_fee": {
-        "denom": "wusd",
+        "denom": "wqt",
         "amount": "1000"
       }
     },
@@ -188,7 +188,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "val1",
+                  "moniker": "ams3",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -200,19 +200,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "wq1mgkht33ulm6y9yarljms52647humfhd2urzq24",
-                "validator_address": "wqvaloper1mgkht33ulm6y9yarljms52647humfhd2xnmmw7",
+                "delegator_address": "wq1xpndc55p4qh83w5usuepvv3nf6wxte9nucvl7c",
+                "validator_address": "wqvaloper1xpndc55p4qh83w5usuepvv3nf6wxte9nxg4y6n",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "KSg4vnewDWTqVVah9vMfsJJFx/63wej1RB4jAz3MFd4="
+                  "key": "a0tolTGv8V3XVbN2X6I1sct11Wrk30kh4wyO6TLubMk="
                 },
                 "value": {
-                  "denom": "wusd",
+                  "denom": "wqt",
                   "amount": "10000000"
                 }
               }
             ],
-            "memo": "2cdf577d7a4f9d0f4879c51f763653a7f1ffd7fc@188.166.86.10:26656",
+            "memo": "c156633d7c118f74d10c77b24930c54adf8f5c31@167.172.36.4:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -222,7 +222,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Ak65xgGrNEn2t2/DB5SWo/6H1AWGYHrTbAmYMkNGH0zU"
+                  "key": "A6zZH1LdY+NJo7v0qGuY6x1GCyI+aIB6xKc18v+L3EDh"
                 },
                 "mode_info": {
                   "single": {
@@ -240,7 +240,7 @@
             }
           },
           "signatures": [
-            "7SDAABP+XNW12tgndE6X0U4/rsn9DSH2dc7zy07VgfR+nWOARezq+YZ/yYI9qyMZ9bglTQmNraEfJpkJC5ZS8gA="
+            "hUepKgpPF5vYl79OjD/YxowOf5XzBY541l9qIkfi7SENdeS8ToYiJ4vsjB3ICh9D6sYJv8wT61/V0RdO2RlT/wA="
           ]
         },
         {
@@ -249,7 +249,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "val2",
+                  "moniker": "fra1",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -261,19 +261,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "wq15xm57umg68m20y59sps358fh9uw0z8dwfapda9",
-                "validator_address": "wqvaloper15xm57umg68m20y59sps358fh9uw0z8dwndckew",
+                "delegator_address": "wq1lgdvhx2ax7agqanhnz57ggmdeuvh2fzkzk3277",
+                "validator_address": "wqvaloper1lgdvhx2ax7agqanhnz57ggmdeuvh2fzkcxg364",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "Gr+kic4HZeKqAHWejyr1Pz2V/MUGuacgyXHQH8wSm8Q="
+                  "key": "QQCx380RMw2Q6olNEj5iThjj/RSJUdTuWvxM+1ETNsc="
                 },
                 "value": {
-                  "denom": "wusd",
+                  "denom": "wqt",
                   "amount": "10000000"
                 }
               }
             ],
-            "memo": "0052a1e334eb68f44e6091a7fe4a5630f222965f@188.166.106.37:26656",
+            "memo": "779c4414ad05672c50705f1a4ae011c50301ec04@134.209.243.176:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -283,7 +283,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A0Rj9zpGY+epMJO/akh6Oxj/JAqj68lTc3teEuV3OjTw"
+                  "key": "AhMURTFiQXG09HQOsGRwvkQuIGyqvck27QKpEj+t0kYW"
                 },
                 "mode_info": {
                   "single": {
@@ -301,7 +301,7 @@
             }
           },
           "signatures": [
-            "WR1Ar5cxsPA//bcCg1tAJ/AIj4YYwCApBUPNkh9c3mUjWty0BXthxjyYy1ANKp6VIPb7MLK6URulKyLpO05qxgA="
+            "LZL/Szh46s6R2INEw3aqI9hcK9gco3Tilt4RIqPbQ8FvgEj1pvQb8qqbdm64iAZ65pYiPF6WIwYIg85M+5iX8QA="
           ]
         },
         {
@@ -310,7 +310,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "val3",
+                  "moniker": "nyc3",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -322,19 +322,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "wq1xdawdlsvp2m9hfhr7lh47q9x6cwvn6ufvjrf4x",
-                "validator_address": "wqvaloper1xdawdlsvp2m9hfhr7lh47q9x6cwvn6ufkz6j3d",
+                "delegator_address": "wq1qe04c0gza7pwrfur6m3mv7a59t4nenv03kcl2q",
+                "validator_address": "wqvaloper1qe04c0gza7pwrfur6m3mv7a59t4nenv0txpywt",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "W224Nh7DBqjoZzuT51cLtM6UKn5I7g4kZ6arv8GbN2g="
+                  "key": "mWfa22xYWv78H2EdIliW+Sn6eH8hin9BWqoh8FuzRhI="
                 },
                 "value": {
-                  "denom": "wusd",
+                  "denom": "wqt",
                   "amount": "10000000"
                 }
               }
             ],
-            "memo": "6623962dc83d64fc4805c492d0b1f3059869d118@188.166.104.50:26656",
+            "memo": "4a76a0668cfab92a074715acab7165612a7fb4d8@167.172.228.6:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -344,7 +344,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Aji6qrfi0U7qJTUrAwgU24Ix0CNXlKrwc9TgfbnpFC7R"
+                  "key": "A8/S1SyGpQkmVMJhsNx51M99r/21aMeUOF4sFNsKHo8P"
                 },
                 "mode_info": {
                   "single": {
@@ -362,7 +362,7 @@
             }
           },
           "signatures": [
-            "q0rcaD4cl1uD6woyq7KKrX4yhZlTq6hR2TJiX+NPkjYBSkoYWNBoW4rHR7jfW61im1YAxctWBasDPLv/Cmo1JgA="
+            "l8LYPtkgZovYpMsgrEsR3W5KI/cmXllLObH0Jek1P5EoVquKi4aGdoQgQH4XzmJ8sGDpPuTBAXS/XaAsWQfo3gA="
           ]
         }
       ]
@@ -375,14 +375,14 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "wusd",
+            "denom": "wqt",
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "300s"
+        "max_deposit_period": "800s"
       },
       "voting_params": {
-        "voting_period": "300s"
+        "voting_period": "400s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -429,12 +429,12 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "wusd",
+        "mint_denom": "wqt",
         "inflation_rate_change": "0.000000000000000000",
         "inflation_max": "0.000000000000000000",
         "inflation_min": "0.000000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "100"
+        "goal_bonded": "0.000000000000000000",
+        "blocks_per_year": "200"
       }
     },
     "params": null,
@@ -455,7 +455,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "wusd"
+        "bond_denom": "wqt"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
