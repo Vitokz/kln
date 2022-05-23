@@ -214,7 +214,7 @@
         "base_fee_change_denominator": 8,
         "elasticity_multiplier": 2,
         "enable_height": "9223372036854775807",
-        "base_fee": "1000000000"
+        "base_fee": "47619040000000"
       },
       "block_gas": "0"
     },
