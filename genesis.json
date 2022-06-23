@@ -310,7 +310,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "val2",
+                  "moniker": "val3",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -362,7 +362,7 @@
             }
           },
           "signatures": [
-            "72kpYk2L34BJVEY1eUGUca234Cnm6yjoEXtf7K7F6oMPj+YofPOsUDrFmYdvSsJtKzb0tXZ5K3xl8IrbkpNwFgA="
+            "tKKteqE1XR5S5zZyLPrUkt10kI2oMvdQmvz7d9vMsj51lfZw01E4coYJmF9LSGd7QQtybAqfyd8IqNMBHLNhTQE="
           ]
         }
       ]
