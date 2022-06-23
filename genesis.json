@@ -208,7 +208,7 @@
                 },
                 "value": {
                   "denom": "awqt",
-                  "amount": "1000000000"
+                  "amount": "10000000"
                 }
               }
             ],
@@ -240,7 +240,7 @@
             }
           },
           "signatures": [
-            "ovAmeSZ03ff5a8JNGY/MjkqjFdLu8w3CtmaZ3uit0MIcIHfPAkb+0zVtJObfUWwUXuGaLFLtPj8qdIgcPz4qWwA="
+            "ayFseQhENubwnL6jRQXS24MJWyBAsy6Pjj6TP8hIQu8+krXoHxp1CISayQfd5ymwU84NnkUbAcHxL/PDQzvpMwA="
           ]
         },
         {
@@ -265,15 +265,15 @@
                 "validator_address": "wqvaloper1sfl8ts30d9rrvf4n9nd2erdu3nrex493l74x4y",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "6of4UZN9MP77v52pNFzUkvW1AsiAekhikfR9EQT21iI="
+                  "key": "O9bi6BJEyvmsfa6d0CbN+zwmebHxu8xiSCsz2EtUk10="
                 },
                 "value": {
                   "denom": "awqt",
-                  "amount": "1000000000"
+                  "amount": "10000000"
                 }
               }
             ],
-            "memo": "7e41ca2a8e3a48da7d13aa7bae2e46e75a741ccc@104.248.251.13:26656",
+            "memo": "7e41ca2a8e3a48da7d13aa7bae2e46e75a741ccc@207.154.207.241:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -301,7 +301,7 @@
             }
           },
           "signatures": [
-            "Tg4rwGV29Xs1UyP87y0TmvTAm8RBEvN2n/OIJq2rBRwd4eIeyJiWMbFemRp8PLccMz+M4ycxrYl5wPQ7+L2vDwE="
+            "AN45YKMbv/a2vX/RSHMzprQM7+3AxRjHZ/L0xXeAxUIL+cVPuD2iyXA6VN6ueX5vTIJva5UtNLurziqRs/tvAgE="
           ]
         },
         {
@@ -310,7 +310,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "val3",
+                  "moniker": "val2",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -330,7 +330,7 @@
                 },
                 "value": {
                   "denom": "awqt",
-                  "amount": "1000000000"
+                  "amount": "10000000"
                 }
               }
             ],
@@ -362,7 +362,7 @@
             }
           },
           "signatures": [
-            "IusC2cz0iamfRDevIrn3zRHkMkVewHcZEf2XXbgsc4d6IDoyhH/gQOwLv/za5RtzYf0wycZG8oAmLgnagjvyhgA="
+            "72kpYk2L34BJVEY1eUGUca234Cnm6yjoEXtf7K7F6oMPj+YofPOsUDrFmYdvSsJtKzb0tXZ5K3xl8IrbkpNwFgA="
           ]
         }
       ]
